@@ -1,5 +1,5 @@
-# test
-Matt mjlg
+#Point_of_Sale_System
+
 
 I am continuously working on this project and plan to add new features and make improvements in the near future.
 The POS system is a web application that allows a retailer to process sales transactions and manage their inventory. 
