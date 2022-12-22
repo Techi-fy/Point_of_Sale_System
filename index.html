@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+    <title>Pos System</title>
+</head>
+
+
+  <body>
+    <div class="container">
+      <h1 class="text-gen"> Point Of Sale System</h1>
+      <h1 class="text-gen"style="font-size:1.3rem;"> Bravo Burger</h2>
+      <div class="product-list">
+        <!-- Add a product item for each product in the inventory -->
+        <div class="product-item" data-product-name="Banana" data-product-price="0.79">
+            <div class="product-name">Fish Sandwhich</div>
+            <div class="product-price">$4.79</div>
+            <button class="add-button">+</button>
+          </div>
+        <div class="product-item" data-product-name="Banana" data-product-price="0.79">
+            <div class="product-name">Cheeseburger</div>
+            <div class="product-price">$6.79</div>
+            <button class="add-button">+</button>
+          </div>
+          <div class="product-item" data-product-name="Banana" data-product-price="0.79">
+            <div class="product-name">Burger</div>
+            <div class="product-price">$4.79</div>
+            <button class="add-button">+</button>
+          </div>
+        <div class="product-item" data-product-name="Apple" data-product-price="0.99">
+          <div class="product-name">Fries</div>
+          <div class="product-price">$0.99</div>
+          <button class="add-button">+</button>
+        </div>
+        
+       
+        <div class="product-item" data-product-name="Apple" data-product-price="0.99">
+            <div class="product-name">Onion Rings</div>
+            <div class="product-price">$2.99</div>
+            <button class="add-button">+</button>
+          </div>
+          <div class="product-item" data-product-name="Orange" data-product-price="0.89">
+            <div class="product-name">Tea</div>
+            <div class="product-price">$2.89</div>
+            <button class="add-button">+</button>
+          </div>
+          <div class="product-item" data-product-name="Orange" data-product-price="0.89">
+            <div class="product-name">Soda</div>
+            <div class="product-price">$2.89</div>
+            <button class="add-button">+</button>
+          </div>
+         
+        
+          <div class="product-item" data-product-name="Orange" data-product-price="0.89">
+            <div class="product-name">Milkshake</div>
+            <div class="product-price">$4.89</div>
+            <button class="add-button">+</button>
+          </div>
+        
+      </div>
+      <div class="transaction-details">
+        <div class="transaction-item">
+          <div class="customer-name">Ray Smith</div>
+          <div class="transaction-date">Monday, January 1, 2020</div>
+        </div>
+        <div class="transaction-item">
+          <div class="product-list">
+           
+          </div>
+        <!-- HTML -->
+<div class="transaction-total">Total: $<span class="total-amount">0.00</span></div>
+
+
+        </div>
+      </div>
+      <button onclick="completeTransactionAndGoToHomepage()">Complete Transaction</button>
+
+      <button onclick="clearCart()" >Clear Cart</button>
+
+    </div>
+  
+
+    <script src="index.js"></script>
+  </body>
+</html>
